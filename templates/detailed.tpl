@@ -16,6 +16,10 @@ ${comment.line}
 {{ desc.forEach(function(x) { }}${comment.line} ${x}
 {{ }) }}${comment.end}
 
+${package}
+
 ${comment.singleLine} @lc code=start
 ${code}
 ${comment.singleLine} @lc code=end
+
+${main}
