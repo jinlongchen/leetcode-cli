@@ -4,6 +4,10 @@ ${comment.line}
 ${comment.line} [${fid}] ${name}
 ${comment.end}
 
+${package}
+
 ${comment.singleLine} @lc code=start
 ${code}
 ${comment.singleLine} @lc code=end
+
+${main}
