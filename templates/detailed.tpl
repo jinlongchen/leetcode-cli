@@ -23,13 +23,11 @@ ${code}
 ${comment.singleLine} @lc code=end
 
 ${comment.start}
-hello
-${comment.end}
-
-${comment.start}
 @lc testcase=start
+
 ${testcaseCode}
+
 @lc testcase=end
-${comment.end}
+*${comment.end}
 
 ${main}
