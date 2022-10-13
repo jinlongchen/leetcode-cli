@@ -10,8 +10,14 @@ ${comment.singleLine} @lc code=start
 ${code}
 ${comment.singleLine} @lc code=end
 
-${comment.singleLine} @lc testcase=start
-${testcase}
-${comment.singleLine} @lc testcase=end
+${comment.start}
+hello
+${comment.end}
+
+${comment.start}
+@lc testcase=start
+${testcaseCode}
+@lc testcase=end
+${comment.end}
 
 ${main}
