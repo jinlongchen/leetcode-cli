@@ -11,8 +11,7 @@ ${comment.line} Likes:    ${likes}
 ${comment.line} Dislikes: ${dislikes}
 ${comment.line} Total Accepted:    ${totalAC}
 ${comment.line} Total Submissions: ${totalSubmit}
-${comment.line} Testcase Example:  
-${comment.line} ${testcase}
+${comment.line} Testcase Example:  ${testcase}
 ${comment.line}
 {{ desc.forEach(function(x) { }}${comment.line} ${x}
 {{ }) }}${comment.end}
