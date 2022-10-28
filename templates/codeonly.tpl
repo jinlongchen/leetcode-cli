@@ -9,7 +9,6 @@ ${package}
 ${comment.singleLine} @lc code=start
 ${code}
 ${comment.singleLine} @lc code=end
-
 ${comment.start}
 @lc testcase=start
 
